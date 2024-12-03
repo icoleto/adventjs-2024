@@ -16,5 +16,5 @@ function prepareGifts(gifts) {
     return [];
   }
 
-  return Array.from(setGifts).sort();
+  return Array.from(setGifts).sort((a, b) => a - b);
 }
